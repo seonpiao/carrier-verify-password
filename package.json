@@ -1,6 +1,6 @@
 {
   "name": "bem-check-password",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "underscore": "^1.8.3"
   },

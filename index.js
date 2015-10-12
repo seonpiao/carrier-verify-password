@@ -1,6 +1,7 @@
 var _ = require('underscore');
 
 module.exports = function(password) {
+  password = password || '';
   var rules = [{
     rule: /.{6,18}/,
     message: '密码长度要在6-18位之间，且必须包含字母和数字'
