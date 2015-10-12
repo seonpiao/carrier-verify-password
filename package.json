@@ -1,10 +1,13 @@
 {
-  "name": "carrier-verify-password",
-  "version": "0.0.3",
+  "name": "bem-check-password",
+  "version": "1.0.0",
   "dependencies": {
     "underscore": "^1.8.3"
   },
   "description": "验证密码是否符合规则",
   "main": "index.js",
-  "author": "7@seon.im"
+  "author": "bemcloud",
+  "scripts": {
+    "test": "mocha --harmony test"
+  }
 }
